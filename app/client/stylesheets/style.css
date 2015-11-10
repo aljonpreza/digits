@@ -1,3 +1,29 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+  font-family: "Open Sans", sans-serif;
+  color: #FF5352;
+}
+.header-image {
+  background-image: url('/images/numbers.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  height: 240px;
+}
+
+.navbar-inverse {
+  background-color: #FF5352;
+  border-radius: 0;
+  border-style: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+  font-size: 16px;
+}
+
+#login-dropdown-list a {
+  color: white;
+}
+
+.text-muted {
+  color: #FF5352;
 }
