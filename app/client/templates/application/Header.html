@@ -11,7 +11,7 @@
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#">DIGITS</a></li>
+          <li><a href="{{ pathFor 'Home' }}">DIGITS</a></li>
           {{#if currentUser}}
             <li><a href="{{ pathFor 'AddContact' }}">Add Contact</a></li>
             <li><a href="{{ pathFor 'ListContact' }}">List Contact</a></li>
