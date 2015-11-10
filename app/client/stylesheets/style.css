@@ -27,3 +27,7 @@ body {
 .text-muted {
   color: #FF5352;
 }
+
+legend.af-fieldGroup-heading {
+  color: #FF5352;
+}
